@@ -1,0 +1,199 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* top nav bar and footer background color */
+.topContent,
+.footer {
+  background-color: #1f2937;
+}
+
+
+/* text style for intro title */
+.introTitle {
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+}
+
+/* text style for intro text and top right nav bar*/
+.introContent,
+.rightNavigationBar {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* color and box styling for button and CTA box*/
+button,
+.bottom {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  border-color: #f9faf8;
+}
+
+/* text style for mid title */
+.midTitle {
+  font: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+/* text for footer */
+footer {
+  color: #e5e7eb;
+}
+
+/* quote section aka mid2 box styling */
+.mid2 {
+  background-image: url("./images/np_file_66408.jpeg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.quote,
+.quoteAuthor {
+  font: 36px;
+  font-style: italic;
+  font-weight: 1000;
+  color: rgb(245, 245, 245);
+  text-shadow: black 0px 0px 20px;
+}
+
+/* top nav bar styling */
+.navigationBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: max-content;
+  margin-bottom: 5rem;
+}
+
+/* left nav bar styling */
+.leftNavigationBar {
+  padding: 1rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.leftNavigationBar img {
+  width: 100px;
+  height: auto;
+}
+
+/* right nav bar styling */
+.rightNavigationBar {
+  width: 20%;
+  flex-shrink: 1;
+  margin-left: auto;
+}
+
+ul {
+display: flex;
+flex-wrap: wrap;
+gap: 9%;
+list-style-type: none;
+}
+
+/* intro text, button, image styling */
+
+.intro {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.introLeft {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  max-width: fit-content;
+}
+
+.introTitle,
+.introContent {
+  display: block;
+}
+
+
+.introImage img {
+  object-fit: contain;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+/* mid content styling */
+.midContainer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.midImage img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.midImageAll {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.midText {
+  text-align: center;
+  justify-content: center;
+}
+
+/* styling for mid2 */
+.mid2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  height: 300px;
+}
+
+.quoteAuthorContainer {
+  display: block;
+}
+
+/* styling for CTA text and button */
+.bottom {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 50%;
+  height: 150px;
+  margin: 100px auto 100px auto;
+  padding: 10px 0 2px 10px;
+  border-radius: 5px;
+}
+
+.ctaButton {
+width: 15%;
+height: 15%;
+flex: 0 1 auto;
+margin: auto 0 auto 0;
+}
+
+/* styling for footer */
+footer {
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
